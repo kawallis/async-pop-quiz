@@ -1,7 +1,7 @@
-function timer (start) {
-    const elapsed = new Date() - start;
+function timer (cb) {
+    
     setTimeout(() => {
-        
+        cb();
     }, 5000);
 }
     
